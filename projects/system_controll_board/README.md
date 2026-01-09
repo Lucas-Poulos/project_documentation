@@ -30,26 +30,5 @@ Onboard regulation supports multi-rail operation for motors and logic:
 - **SD card module via SPI** (data logging)
 - **Display support via SPI or I2C**
 
-## Suggested Repository Structure
-- `hardware/`
-  - Schematics
-  - PCB layout
-  - Connector definitions
-  - Assembly drawings
-- `firmware/`
-  - MCU firmware source
-  - Board support package (BSP)
-  - Peripheral drivers (motors, relays, SD, display)
-- `docs/`
-  - Bring-up procedure
-  - Test plan + results
-  - Revision notes
-- `bom/`
-  - Bill of Materials (BOM)
-  - Alternate parts list (if applicable)
-
-## Status
-**In progress**
-
 ## Notes
 This board is intended to be reusable across multiple test fixtures to minimize redesign effort and reduce wiring/bring-up time.
