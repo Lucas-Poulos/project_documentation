@@ -23,7 +23,7 @@ A relay control board based on an **ESP32-WROOM** module. It runs from **12V**, 
 ## Programming
 
 - Plug in **USB**
-- Flash the ESP32 using Arduino IDE / PlatformIO / ESP-IDF (depending on this repo)
+- Flash the ESP32 using Arduino IDE / PlatformIO / ESP-IDF 
 
 ## SPI Expansion
 
